@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="09B285F7-B035-F7AE-27F4-16D5C2DBD0FB" containerWithKeyObject="AD3232CA-D8C4-CD4E-3D0C-5B4635F7C1DC" localFKIndex="06F7D5BB-9D1C-4B33-470C-41EFBC762343" name="Venta_MedioPago_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>643C8E64-BE1F-3126-76DE-4EB74E433490</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<referredTableLongName>MedioPago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B903BDDA-A8D9-8DC0-7829-2F196001DF7A</referredTableID>
+<keyObject>E3C5641A-BEFA-F4AF-17BA-D25EA6593BD5</keyObject>
+<referredKeyID>E3C5641A-BEFA-F4AF-17BA-D25EA6593BD5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pago_ID_Pago</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="527FBD7E-139A-A687-1963-45E5600905FE" name="Compra">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:31:20 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_compra" id="327D8ED1-C30E-F81C-D47F-2C34E8CD4789">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:31:39 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,30,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoCompra" id="93D6DAEC-58F0-703A-9EDF-3CABCBBC2623">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:32:00 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pago" id="11B5CA20-7901-2A1E-56C5-5F28D36BEEE3">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:01:59 UTC</createdTime>
+<generatorID>6972FC94-6C8F-1F6C-3B8C-DDA386CA15BD</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>04547C6F-B90C-C8CC-D759-E4D9CD2C78BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Cliente" id="4FBBC5E5-BB0D-93D4-E612-ACE40991C366">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:04:21 UTC</createdTime>
+<generatorID>BCAED832-11FA-E366-91AD-C42DC64761EC</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>CB2B4777-6F44-2DDB-FB02-66DF53320BA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5238BA3-DD0F-3B31-17F2-5437FF5474A9" name="Compra PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:03:00 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>327D8ED1-C30E-F81C-D47F-2C34E8CD4789</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0ABE4379-4C69-32CE-D420-EB85E2622D4F" name="Producto">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>9C37BE80-10B8-2338-8CFE-18436EA64F26</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<abbreviation>Pro</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Producto" id="84B05E2C-2235-C8FC-7964-C0B503EF3BA1">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>3DEDBD11-BBDB-62F6-4DC5-74B57C18F853</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoProducto" id="210B8B26-5150-F65A-E258-0C87B074082E">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>5ECB94E2-55A9-71E9-8BC3-1F3B2CA7FE8D</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="B585B5FE-9928-6445-E421-B66E52DE4134">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>6E66AF01-7C36-D10B-E504-FAADA3054D09</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Administrador_ID_Admin" id="F99FCC24-0991-CC26-0D6A-ABAB2B34787D">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>4730AD3C-BC8D-CDD3-6929-E88E2EA923F1</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57BDD8DB-C15A-CED6-9ED5-84AA841B7687" referredColumn="CE61C8DC-8F8F-58FB-A594-EDC3DFB3DE33"/>
+</associations>
+</Column>
+<Column name="Venta_ID_venta" id="C30B9C75-133F-83A5-50DC-03E84E50D237">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>141512A4-DFF8-D785-BC0D-53D5721F0176</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Pago" id="9B4C66A1-AD2C-D8D3-1B5A-3AC2A66FFD95">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>AC834029-70BE-4F58-E288-838768C459D0</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Admin" id="434CEE2F-3EB7-31A8-3595-10096988BD9F">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>B69C5D39-193F-E956-8870-A37496364E3B</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="720ABEE3-9835-CE07-A314-25026598B015" name="Producto_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>3D1BC678-1688-9D51-97E7-D37F23CC21DB</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84B05E2C-2235-C8FC-7964-C0B503EF3BA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCD9559F-B9C5-6A85-685D-B817DC08DFDC" name="Producto__IDX">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E49E54B0-F965-EE4F-4945-F0C2B5B95EF9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C30B9C75-133F-83A5-50DC-03E84E50D237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B25F6CAC-85EE-CC24-ECE5-1C428D52D974" name="Producto__IDX">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E49E54B0-F965-EE4F-4945-F0C2B5B95EF9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C30B9C75-133F-83A5-50DC-03E84E50D237"/>
+<colUsage columnID="9B4C66A1-AD2C-D8D3-1B5A-3AC2A66FFD95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA6C3D79-05FC-F6F9-8195-5E5468FBA043" name="Producto_Administrador_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>6FB2C983-2858-A306-88DE-684305EE5E0A</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F99FCC24-0991-CC26-0D6A-ABAB2B34787D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CAPSTONE_GRUPO4" id="5BA1007C-E06A-0DD4-2D2A-3DA7B3C466E3" version="3.5">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-24 22:17:21 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5BA1007C-E06A-0DD4-2D2A-3DA7B3C466E3</designId>
+</OSDM_Design>
