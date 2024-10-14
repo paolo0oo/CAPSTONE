@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1E221C9-9A05-5E2A-9339-F58742246970" name="Compra">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>527FBD7E-139A-A687-1963-45E5600905FE</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_compra" id="CAD3D4A6-C8FB-DB9E-CD66-47E32434744B">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>327D8ED1-C30E-F81C-D47F-2C34E8CD4789</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,30,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoCompra" id="0AD63A2F-12B0-34EA-E1AC-C9F09D819E6A">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>93D6DAEC-58F0-703A-9EDF-3CABCBBC2623</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID_Cliente" id="121C454C-84BD-AE64-B0C5-0D8F0F7CCEEA">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>0F5C395D-9049-5ACF-9EA7-B9C12F8D7F67</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5BA67DF-C5A0-DD55-A7E3-83BCB3C4D884" referredColumn="B8DD3F7F-CB93-A62C-BF06-1F8F2C15C97E"/>
+</associations>
+</Column>
+<Column name="Pago_ID_Pago" id="0F0AF9FC-157D-C6AB-FB2A-293D3C36BD85">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>E8DE602D-F0E6-1B9C-E490-364F6D030B2F</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Compra_ID" id="D0B5B3DA-2F6A-390E-E1CA-A52B7A7BEA0E">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ID_Pago" id="2F2DFFA4-3B3D-F294-8978-D736291ED5FD">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>11B5CA20-7901-2A1E-56C5-5F28D36BEEE3</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Cliente" id="DE10530D-7DD8-A028-EA4A-3AD1CE20A953">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>4FBBC5E5-BB0D-93D4-E612-ACE40991C366</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3210615-0D13-688B-06D9-B2812C1336BB" name="Compra_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D0B5B3DA-2F6A-390E-E1CA-A52B7A7BEA0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A2BA438-3449-7AA3-ED72-00AC5DFCD7CE" name="Compra_ID_compra_UN">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>D5238BA3-DD0F-3B31-17F2-5437FF5474A9</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAD3D4A6-C8FB-DB9E-CD66-47E32434744B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82CA5DDB-8A30-C0FF-4907-7507C1B0ADEE" name="Compra__IDX">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6972FC94-6C8F-1F6C-3B8C-DDA386CA15BD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0F0AF9FC-157D-C6AB-FB2A-293D3C36BD85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="053EFC26-AB3D-DABE-38D2-B1D05044A86C" name="Compra_Cliente_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>BCAED832-11FA-E366-91AD-C42DC64761EC</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="121C454C-84BD-AE64-B0C5-0D8F0F7CCEEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

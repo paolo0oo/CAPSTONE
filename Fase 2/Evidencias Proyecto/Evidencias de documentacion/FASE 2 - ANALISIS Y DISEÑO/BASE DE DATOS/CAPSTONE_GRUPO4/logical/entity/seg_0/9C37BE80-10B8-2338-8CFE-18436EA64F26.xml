@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C37BE80-10B8-2338-8CFE-18436EA64F26" name="Producto">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:16:00 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Pro</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Producto" id="3DEDBD11-BBDB-62F6-4DC5-74B57C18F853">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:16:09 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoProducto" id="5ECB94E2-55A9-71E9-8BC3-1F3B2CA7FE8D">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:16:44 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="6E66AF01-7C36-D10B-E504-FAADA3054D09">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:17:06 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_venta" id="141512A4-DFF8-D785-BC0D-53D5721F0176">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:33:45 UTC</createdTime>
+<generatorID>E49E54B0-F965-EE4F-4945-F0C2B5B95EF9</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>AA5FAF5F-BF3D-096E-1A99-EB13441B494D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pago" id="AC834029-70BE-4F58-E288-838768C459D0">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:01:59 UTC</createdTime>
+<generatorID>E49E54B0-F965-EE4F-4945-F0C2B5B95EF9</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>725DE899-17A3-329E-E309-097CA26B9477</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Admin" id="B69C5D39-193F-E956-8870-A37496364E3B">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:04:56 UTC</createdTime>
+<generatorID>6FB2C983-2858-A306-88DE-684305EE5E0A</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>4C2A29D7-72C4-9B94-4C3F-316C00558CE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D1BC678-1688-9D51-97E7-D37F23CC21DB" name="Producto PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:17:25 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DEDBD11-BBDB-62F6-4DC5-74B57C18F853</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

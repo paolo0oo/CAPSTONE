@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0C3439A4-FEFE-5D4F-7802-B5D06EF78D16" mainViewID="BE1FE64B-4E1C-BEB7-9B44-7B25307DEBA0">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-24 22:17:21 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

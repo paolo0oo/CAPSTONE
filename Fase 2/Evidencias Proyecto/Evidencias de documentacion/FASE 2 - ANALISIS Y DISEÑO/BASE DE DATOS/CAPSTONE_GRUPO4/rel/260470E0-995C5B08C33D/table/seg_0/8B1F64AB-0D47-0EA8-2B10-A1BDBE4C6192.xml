@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B1F64AB-0D47-0EA8-2B10-A1BDBE4C6192" name="Pago">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>AA09FC1E-CF4B-B8D4-B76A-5284C73C6AD9</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pago" id="90678FD7-12CE-68A5-6620-4895472F1DDB">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>04547C6F-B90C-C8CC-D759-E4D9CD2C78BB</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,20,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoPago" id="0160C15C-18FB-2F32-227F-6E46796A89FE">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>1946286D-2501-525D-71FA-213A25045ACF</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Venta_ID_venta" id="EB6A73E0-7E01-6B30-07BD-D2DB653D35D6">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>6664834A-DEBD-C121-F2D0-E35D481172F9</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Compra_Compra_ID" id="F95385DB-252A-A774-5C70-54C5FD92B1BF">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Pago1" id="685088B2-7ACC-5A00-7811-9B42447A4DF0">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>55C6FD09-AA82-C34C-0B28-B6EEC1B99720</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_compra" id="E048D060-46E3-1F58-C689-499569C581E8">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>C07ACC43-6C57-ADAC-E5AB-EDA61BA64819</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Venta_MedioPago_Pago_ID_Pago" id="9187BC53-812A-AFEC-491B-FF0D6F30A237">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E73DE901-65B1-B2C0-ACC2-9016EA7E2ECD" name="Pago_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>5BCE827A-4BF3-4B74-6E3C-7AF5544D7496</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90678FD7-12CE-68A5-6620-4895472F1DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F850F64B-EA26-A594-5D1F-BE1245E43EF6" name="Pago__IDX">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6972FC94-6C8F-1F6C-3B8C-DDA386CA15BD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F95385DB-252A-A774-5C70-54C5FD92B1BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8783B6B3-95DB-231B-127F-6035301A95FF" name="Pago__IDXv1">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>54E4EF23-3E58-131F-68C0-C2BF5833B186</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EB6A73E0-7E01-6B30-07BD-D2DB653D35D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19FECC66-1170-5AC9-0A42-9B940A36E4F9" name="Pago__IDX">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6972FC94-6C8F-1F6C-3B8C-DDA386CA15BD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E048D060-46E3-1F58-C689-499569C581E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0747CB2C-EBE4-4AD4-0064-FC2642E21AEE" name="Pago__IDXv2">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>54E4EF23-3E58-131F-68C0-C2BF5833B186</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EB6A73E0-7E01-6B30-07BD-D2DB653D35D6"/>
+<colUsage columnID="9187BC53-812A-AFEC-491B-FF0D6F30A237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

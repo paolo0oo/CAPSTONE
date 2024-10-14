@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="A97C5D95-FD18-1E16-12D4-1AD67B5336B8">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-26 21:48:00 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<sourcePk>3E18F98E-9428-6186-2456-EB9AB745BC68</sourcePk>
+<targetPk>DB7CBBB3-7C48-A723-41FB-D151B6FAB7F9</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E15391D-EA09-119B-D4FF-9CBF437E5B2F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FC215BEB-E656-33EE-FABE-D88B5A7061B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

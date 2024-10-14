@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" mainViewID="E1E1A18F-0577-B84A-45E8-4136148F3031">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-24 22:17:24 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

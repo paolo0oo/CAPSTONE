@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92BDE12C-917E-CEC0-146A-7810D29EDA70" name="MedioPago">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-26 21:46:31 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Debito" id="6FD13E99-7A83-E000-FD3D-B650C11AE07E">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 08:44:45 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Credito" id="93F65A32-7AA0-B615-25EF-A4090B35EDCA">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 08:45:23 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Transferencia" id="E2C59E84-7C57-D4C4-47F9-30B6C8A9239C">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 08:45:42 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pago" id="32AB55EE-BE67-3EDB-F983-98E1D984D2C3">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:01:59 UTC</createdTime>
+<generatorID>5A79DEB9-0339-E91D-DDC3-4387234AFB80</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>04547C6F-B90C-C8CC-D759-E4D9CD2C78BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76E64929-4EB7-D10B-F4B6-0876DE701893" name="MedioPago PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-26 21:47:00 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32AB55EE-BE67-3EDB-F983-98E1D984D2C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

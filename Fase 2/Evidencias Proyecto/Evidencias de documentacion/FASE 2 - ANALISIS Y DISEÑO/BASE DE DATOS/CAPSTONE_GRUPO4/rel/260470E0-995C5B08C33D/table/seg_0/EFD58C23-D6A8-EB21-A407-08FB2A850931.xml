@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFD58C23-D6A8-EB21-A407-08FB2A850931" name="Usuario">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>6874FBA4-D633-4963-328C-F870FFABAB0E</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<abbreviation>User</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="88CDFF10-54C9-4AD3-8388-11E87ED8C489">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>16726849-82A3-4455-AB9C-1A10475BF557</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="565EE992-BEB3-AEA5-3EB4-3F2914991649">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>0767C1E4-8A07-DC31-E8A4-DEF62F4E3A69</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="5953D624-4CFB-1A01-9306-166E2B9D5ECC">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>7397F618-5CEC-251E-8B7F-E9A1E63DAB54</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoUsuario" id="AB05CA15-6F79-F915-71BB-BADFF3A83642">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>2FF98957-7473-3657-C909-2570309DA319</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Administrador_ID_Admin" id="AB8FFDAA-4135-76DC-553E-B95E5F1A2B31">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>4D699BF2-A026-082E-A4E4-289F369F02D7</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Admin" id="D50635BD-884C-83CD-5B00-D86C12DF7861">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:06:27 UTC</createdTime>
+<generatorID>3400FF62-10AD-88AE-C994-3F84136FFBF6</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D684F9A4-8987-8C35-5A22-8F16ED41C63D" name="Usuario_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>5C9186B1-A7E5-A633-C583-0BC70621353E</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88CDFF10-54C9-4AD3-8388-11E87ED8C489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3DC9D99-708A-D3DC-1F51-1706E377D8FA" name="Usuario__IDX">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BC723BD1-D880-B080-4914-4377A5DC02AB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AB8FFDAA-4135-76DC-553E-B95E5F1A2B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

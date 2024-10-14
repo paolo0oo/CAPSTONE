@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41F31129-FDCB-9C1E-2609-65B20F50397A" name="Cliente">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>BC7435E6-F0EC-1B3B-240C-C8453168CD81</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<abbreviation>Cli</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cliente" id="B8DD3F7F-CB93-A62C-BF06-1F8F2C15C97E">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>CB2B4777-6F44-2DDB-FB02-66DF53320BA1</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="BBAFB2F6-8727-803F-1AB5-0B0CFB57C015">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>47AB3DCD-F83B-7018-2755-275B81CE2F2A</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="61617958-2D62-FA1B-86F2-35722846E560">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>A0A4C36E-4F94-2178-595E-DAD99A9F8F7D</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_ID" id="04189611-66A4-210B-8009-D3BC96070091">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>1FEFD623-E711-2707-3BA1-12D51DE62434</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B11E18CA-C09E-864D-EFF5-FE4794296F0C" referredColumn="88CDFF10-54C9-4AD3-8388-11E87ED8C489"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B57FAAC-8429-786E-CFA0-F62A310257F1" name="Cliente_PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>80594BAD-827D-4677-7BB3-5D6DABDF8A2B</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8DD3F7F-CB93-A62C-BF06-1F8F2C15C97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2F017EE-11F4-F842-94E6-BF39A57FBAB6" name="Cliente_Usuario_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:34:18 UTC</createdTime>
+<generatorID>FE615426-2A2B-BABE-6589-A7996C493CEA</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04189611-66A4-210B-8009-D3BC96070091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

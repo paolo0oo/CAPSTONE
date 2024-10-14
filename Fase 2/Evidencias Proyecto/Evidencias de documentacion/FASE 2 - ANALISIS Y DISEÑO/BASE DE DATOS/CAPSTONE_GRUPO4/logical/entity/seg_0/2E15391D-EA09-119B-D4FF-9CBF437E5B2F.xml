@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E15391D-EA09-119B-D4FF-9CBF437E5B2F" name="Venta">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:22:30 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_venta" id="AA5FAF5F-BF3D-096E-1A99-EB13441B494D">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:22:35 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoVenta" id="8C39F392-7360-8A9C-7A11-3DA6C99C91CF">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:22:42 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="530D1FEC-F07C-1030-AF31-040E8303E54A">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:23:14 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comprobante" id="5604F02C-30BF-6FFB-7426-C2A18C7F9709">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:23:18 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DetalleVenta" id="ACF6DFE7-1BFA-BEF2-3B62-5E13A0E2A621">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:23:25 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Producto" id="1F09A8A1-E80C-C560-53E2-50F2E851C6F5">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:33:43 UTC</createdTime>
+<generatorID>E49E54B0-F965-EE4F-4945-F0C2B5B95EF9</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>3DEDBD11-BBDB-62F6-4DC5-74B57C18F853</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_factura" id="F046614F-FDF5-2178-8C88-EC9A11A25C92">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 08:38:18 UTC</createdTime>
+<generatorID>A97C5D95-FD18-1E16-12D4-1AD67B5336B8</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>404C1607-DF3C-A391-193B-058E7C71879C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pago" id="725DE899-17A3-329E-E309-097CA26B9477">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:01:59 UTC</createdTime>
+<generatorID>643C8E64-BE1F-3126-76DE-4EB74E433490</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>32AB55EE-BE67-3EDB-F983-98E1D984D2C3</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pago1" id="BF571D59-BE1F-4B87-FEB4-27D4317E3B14">
+<createdBy>rafae</createdBy>
+<createdTime>2024-10-07 09:01:59 UTC</createdTime>
+<generatorID>54E4EF23-3E58-131F-68C0-C2BF5833B186</generatorID>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<referedAttribute>04547C6F-B90C-C8CC-D759-E4D9CD2C78BB</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E18F98E-9428-6186-2456-EB9AB745BC68" name="Venta PK">
+<createdBy>rafae</createdBy>
+<createdTime>2024-09-25 00:23:37 UTC</createdTime>
+<ownerDesignName>CAPSTONE_GRUPO4</ownerDesignName>
+<engineerTo>
+<item key="260470E0-AAC4-AE6C-BBBE-995C5B08C33D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA5FAF5F-BF3D-096E-1A99-EB13441B494D</attributeRef>
+<attributeRef>725DE899-17A3-329E-E309-097CA26B9477</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
